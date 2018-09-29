@@ -13,6 +13,10 @@ public enum DiscountStrategyType {
 		this.customerType = customerType;
 		this.discountStrategy = discountStrategy;
 	}
+	
+	public CustomerType getCustomerType() {
+		return customerType;
+	}
 
 	public IDiscountType getDiscountStrategy() {
 		return discountStrategy;
