@@ -1,4 +1,6 @@
 # retailstorediscountcalc
+-This is a maven project. Import project into Eclipse as Maven project.
+-This application takes the bill which contains the list of items and computes the net amount after computing discount based on customer rules.
 
 -To run the application run RetailStoreDiscountCalcTest.java
 
@@ -10,6 +12,9 @@
 
 -view the class diagram under docs/classdiagram.jpg
 
+
+-pom.xml
+-Clean install the pom.xml to maven install the project.
 
 src/main/java
 -RetailStoreDiscountCalcTest.java, constains the main() method. This is the client code which calls the DiscountCalculator.java's static factory method getNetAmountAfterDiscount().
