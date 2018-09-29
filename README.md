@@ -1,5 +1,5 @@
 # retailstorediscountcalc
--This is a maven project. Import project into Eclipse as Maven project.
+-This is a maven project. Import project into Eclipse as Maven project. This requires java 8 to compile and run.
 -This application takes the bill which contains the list of items and computes the net amount after computing discount based on customer rules.
 
 -To run the application run RetailStoreDiscountCalcTest.java
